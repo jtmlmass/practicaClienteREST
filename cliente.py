@@ -3,7 +3,7 @@ import json
 
 
 class Estudiante:
-    def __init__(self, nombre, correo, carrera, matricula=0):
+    def __init__(self, nombre, correo, carrera, matricula=None):
         self.nombre = nombre
         self.correo = correo
         self.carrera = carrera
