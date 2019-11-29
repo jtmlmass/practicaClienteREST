@@ -1,5 +1,6 @@
 import requests
 import json
+import emoji
 
 
 class Estudiante:
@@ -23,7 +24,8 @@ def jprint(obj):
 
 def print_menu():
     print()
-    print("---------------------- REST Api -----------------------")
+    print("-------------------- REST Api " +
+          emoji.emojize(":grinning_face_with_big_eyes:") + "  ----------------------")
     print("| Eliga la opción deseada en las siguientes opciones: |")
     print("| 1. Lista de Estudiantes                             |")
     print("| 2. Información de Estudiante                        |")
